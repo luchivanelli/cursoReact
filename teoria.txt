@@ -1,0 +1,26 @@
+En javascript, para exportar e importar y que funcione: cambiar extension de los archivos de .js a .mjs
+En react no hace falta esto ya que tenemos el archivo package.js 
+
+PROPIEDADES PRIVADAS: Se declaran con un # (ejemplo: #nombPropiedad)
+
+
+REACT:
+
+En el archivo index.js:
+--ReactDOM.render(parametro1,parametro2): Funcion para renderizar
+parametro1: lo que queramos renderizar
+parametro2: en donde lo queremos renderizar
+Ejemplo:
+ReactDOM.render('Hola mundo', document.getElementById('root'))
+
+El estado de un componente funcional se puede ver a traves de los hooks
+El estado de un componente de clase se defina con "state" y se modifica con setState
+
+El método componentDidMount() se usa para mostrar modales, para llamados AJAX y traer datos de una api. Tambien para actualizar el estado
+Primero se ejecuta el constructor, despues render y por ultimo el metodo component
+El constructor se usa para definir propiedades en el estado por defecto
+
+El método componentDidUpdate() se usa para actualizar el componente
+El método componentWillUnmount() se usa para eliminar el componente
+
+CLASE 37: Ejemplo de como subir el estado al componente padre. Ejemplo del nombre y apellido
