@@ -1,0 +1,21 @@
+.container-input label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.container-input input {
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid #4EA1D9;
+    background-color: #EDF3FA;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+}
+
+.container-input input:focus {
+    outline: none;
+    border-bottom: 2px solid #376e93;
+}
+
+

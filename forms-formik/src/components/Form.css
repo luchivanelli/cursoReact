@@ -1,0 +1,40 @@
+.form {
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgb(183, 183, 247);
+    border: 2px solid rgb(144, 144, 242);
+    width: 50%;
+}
+
+.form-div {
+    display: flex;
+    gap: 5px;
+    margin: 10px;
+}
+
+.form-div p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.input-text {
+    max-height: 20px;
+}
+
+.input-submit {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+}
+
+.label-radio {
+    margin: 0 0 0 8px;
+}

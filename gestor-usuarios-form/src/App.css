@@ -1,0 +1,34 @@
+.form {
+  background-color: #EDF3FA;
+  padding: 30px 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.div {
+  background-color: #EDF3FA;
+  padding: 30px 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.div h3 {
+  color: #4EA1D9;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.div ul {
+  padding: 0;
+}
+
+.div ul li {
+  list-style: none;
+  padding: 5px 0;
+}
